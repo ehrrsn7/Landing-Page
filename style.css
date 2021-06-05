@@ -79,7 +79,6 @@ h5,
 h6,
 body {
     font-family: var(--heading-font);
-    color: var(--headline-color-on-white);
 }
 
 
@@ -131,16 +130,17 @@ header {
 }
 
 header>.logo-box,
-header>div>h1 {
+header>div>h1,
+header a {
     display: inline;
     text-align: left;
-    align: left;
 }
 
 header>div>h1,
 header>div>h2,
 header>h1,
-header>h2 {
+header>h2,
+header>a {
     margin-top: 0;
     color: var(--headline-color-on-color);
     padding: 10px;
@@ -157,7 +157,6 @@ header>h2 {
     header>div>h1 {
         display: block;
         text-align: center;
-        align: center;
         margin: 0 auto;
     }
     .logo-box {
